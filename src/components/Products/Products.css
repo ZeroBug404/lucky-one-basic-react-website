@@ -1,0 +1,24 @@
+.product{
+    border: 2px solid rgb(202, 175, 175);
+    height: 350px;
+    position: relative;
+}
+.product-info{
+    padding: 20px;
+}
+.product img{
+    width: 306px;
+    height: 150px;
+}
+
+.btn-cart{
+    width: 100%;
+    background-color: coral;
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-cart:hover{
+    background-color: tomato;
+}

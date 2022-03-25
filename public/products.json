@@ -1,0 +1,56 @@
+[
+    {
+      "_id": "623ddbaf1a37142c3910683e",
+      "picture": "./product-images/sd35020.jpg",
+      "price": 25,
+      "name": "Oliver Aguirre"
+    },
+    {
+      "_id": "623ddbafdd4f888471aee3ec",
+      "picture": "./product-images/sd35050.jpg",
+      "price": 29,
+      "name": "Paula Buck"
+    },
+    {
+      "_id": "623ddbaf02b0d80e3e239ad7",
+      "picture": "./product-images/sd35110.jpg",
+      "price": 30,
+      "name": "Tommie Adams"
+    },
+    {
+      "_id": "623ddbaf12fcefac03efb59e",
+      "picture": "./product-images/sd35120.jpg",
+      "price": 36,
+      "name": "Buck Schneider"
+    },
+    {
+      "_id": "623ddbafe14375cc6a7bff9f",
+      "picture": "./product-images/sd35240.jpg",
+      "price": 26,
+      "name": "Case Puckett"
+    },
+    {
+      "_id": "623ddbaf56f85c54834aeb66",
+      "picture": "./product-images/sd35280.jpg",
+      "price": 39,
+      "name": "Sue Frank"
+    },
+    {
+      "_id": "623ddbaf4e00f18cf5874dfd",
+      "picture": "./product-images/sd35320.jpg",
+      "price": 27,
+      "name": "Ellison Reid"
+    },
+    {
+      "_id": "623ddbaf22f21692d7a5b868",
+      "picture": "./product-images/sd35350.jpg",
+      "price": 26,
+      "name": "Pansy Whitaker"
+    },
+    {
+      "_id": "623ddbaf1771f314670bb7ee",
+      "picture": "./product-images/sh2469.jpg",
+      "price": 32,
+      "name": "Burns Roman"
+    }
+  ]
