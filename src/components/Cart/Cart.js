@@ -19,6 +19,8 @@ const Cart = (props) => {
             <h5>This one for you: {random}</h5>
 
             <button onClick={removeAll} className='choose-agian-btn'>Choose again</button>
+
+            
         </div>
     );
 };

@@ -57,6 +57,20 @@ const Shop = () => {
                     handleChooseOne={handleChooseOne}
                     ></Cart>
                 </div>
+                
+        </div>
+        <div className="answers">
+            <h2>
+                Q: How React works?
+                <p>Ans: React use a virtual dom to identify the changes part. They match with the DOM and find that specific part and add it specifically to the real DOM.
+                React works through oneway data binding. Data flow is unidirectional.</p>
+            </h2>
+            <h2>
+                Q: Props vs State
+                <p>Ans: Props can be changed. State changes asynchronously. Props is read-only.
+                States are mutable but props are immutable.
+                We made a change in state and props are used to send that data.</p>
+            </h2>
         </div>
     </div>
   );
