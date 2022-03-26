@@ -21,3 +21,11 @@
 .cart-info h5{
     margin-top: 5px;
 }
+.choose-agian-btn{
+    padding: 15px 35px;
+    background-color: rgb(148, 64, 16);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}

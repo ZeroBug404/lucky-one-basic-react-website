@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useState } from "react";
 import Cart from "../Cart/Cart";
 import Products from "../Products/Products";
@@ -8,6 +9,7 @@ const Shop = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([])
     const [random, setRandom] = useState([])
+    const [rmvCart, setRmvCart] = useState([])
 
     useEffect( () => {
         fetch('products.json')
@@ -28,6 +30,12 @@ const Shop = () => {
         setRandom(choosenOne);
     }
 
+    const removeAll = () => {
+        // console.log(cart); 
+        cart.splice(0, cart.length);
+        setRmvCart(cart)
+    };
+
   return (
     <div className="shop-container">
         <div className="shop">
@@ -45,6 +53,7 @@ const Shop = () => {
                     <Cart 
                     cart={cart}
                     random={random}
+                    removeAll={removeAll}
                     handleChooseOne={handleChooseOne}
                     ></Cart>
                 </div>

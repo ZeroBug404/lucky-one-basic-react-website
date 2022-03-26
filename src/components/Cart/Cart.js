@@ -2,11 +2,11 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const {cart} = props;
+    const {cart, handleChooseOne, random, removeAll} = props;
     // console.log(cart);
-    const {handleChooseOne} = props;
-    const {random} = props;
-    // console.log(random);
+
+    
+    
 
     return (
         <div className='cart-info'>
@@ -17,6 +17,8 @@ const Cart = (props) => {
 
             <button onClick={handleChooseOne} className='choose-btn'>Choose 1 For Me</button>
             <h5>This one for you: {random}</h5>
+
+            <button onClick={removeAll} className='choose-agian-btn'>Choose again</button>
         </div>
     );
 };
