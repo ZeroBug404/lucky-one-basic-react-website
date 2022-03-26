@@ -1,0 +1,23 @@
+.cart-info{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(238, 116, 94);
+    position: sticky;
+    top: 0;
+}
+
+.choose-btn{
+    padding: 15px 35px;
+    background-color: rgb(148, 64, 16);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+.choose-btn:hover{
+    background-color: rgb(173, 78, 23);;
+}
+
+.cart-info h5{
+    margin-top: 5px;
+}

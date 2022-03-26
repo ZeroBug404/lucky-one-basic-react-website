@@ -16,8 +16,14 @@
     height: 400px;
 }
 
-.cart{
+/* .cart{
     margin-top: 20px;
     padding: 10px;
     background-color: rgb(238, 116, 94);
+} */
+
+@media only screen and (max-width: 600px){
+    .products{
+        grid-template-columns: repeat(1, 3fr);
+    }
 }
