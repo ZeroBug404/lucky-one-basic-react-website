@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with Swords Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Swords Shop](https://chipper-scone-291caa.netlify.app/).
+
+## Live site link
+
+[Click her to see preview](https://chipper-scone-291caa.netlify.app/)
 
 ## Available Scripts
 
