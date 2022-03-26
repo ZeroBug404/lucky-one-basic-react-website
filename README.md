@@ -1,10 +1,8 @@
-# Getting Started with Swords Shop
-
-[Swords Shop](https://chipper-scone-291caa.netlify.app/).
+# Swords Shop
 
 ## Live site link
 
-[Click her to see preview](https://chipper-scone-291caa.netlify.app/)
+[https://chipper-scone-291caa.netlify.app/](https://chipper-scone-291caa.netlify.app/)
 
 ## Available Scripts
 
